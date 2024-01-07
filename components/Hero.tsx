@@ -11,7 +11,7 @@ const Hero = () => {
   const router = useRouter()
 
   return (
-    <div className='relative min-h-screen w-full'>
+    <div className='relative min-h-[100dvh] w-full'>
       <div className='hero-image' />
 
       <div className='hero-text-wrapper'>

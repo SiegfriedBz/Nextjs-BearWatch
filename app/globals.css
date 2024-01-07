@@ -62,11 +62,6 @@ body {
 }
 
 @layer components {
-  /* home page layout */
-  /* .home-page-layout {
-    @apply pb-8;
-  } */
-
   /* non-home page layout */
   .page-layout {
     /* mt-[Xrem] to push the content below the navbar on non-home pages */
@@ -90,7 +85,7 @@ body {
   .hero-image {
     @apply absolute 
         left-0 right-0
-        h-screen
+        h-[100dvh]
         bg-[url('/bear02.png')] 
         bg-cover 
         bg-[center] bg-no-repeat 
